@@ -50,7 +50,7 @@
 
 @media(max-width:900px) {
     .portContainer{
-        width:70%;
+        width:90%;
         flex-direction: column;
     }
 

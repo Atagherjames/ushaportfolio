@@ -3,7 +3,7 @@ import './about.css'
 
 export const About = () => {
   return (
-    <div className='aboutContainer'>
+    <div className='aboutContainer' id='about'>
         <div className="aboutLeft">
             <img src="\Assest\About.jpg" alt="" />
         </div>

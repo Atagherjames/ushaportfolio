@@ -3,7 +3,7 @@
     margin-right: auto;
     width:60vw;
     margin-left: auto;
-    margin-top: 40px;
+    padding-top: 100px;
     gap:50px;
 }
 
@@ -40,8 +40,9 @@ font-size: 20px;
 
 @media(max-width:1200px){
     .aboutContainer{
-        width:85vw;
+        width:90vw;
         margin-top: 0;
+        padding-top: 20px;
     }
 }
 
@@ -59,7 +60,7 @@ font-size: 20px;
     }
 
     .aboutRight{
-        width:60%;
+        width:82%;
     }
 
     .aboutRight h2, 

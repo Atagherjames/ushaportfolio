@@ -7,17 +7,11 @@ import { About } from './About'
 import TechStack from './TechStack'
 import Portfolio from './Portfolio'
 import Animation from './Animation'
-import { Copyright } from './Copyright'
-import { GiLightningTree } from 'react-icons/gi'
-import { GiLightningTrio } from 'react-icons/gi'
-import { GiLightningStorm } from 'react-icons/gi'
-import { GiLightningShout} from 'react-icons/gi'
-import { GiLightningSlashes } from 'react-icons/gi'
-import { GiHeavyRain } from 'react-icons/gi'
-import {GiFireTail} from 'react-icons/gi'
+import { Copyright} from './Copyright'
+import { GiLightningTree,GiLightningTrio,GiLightningStorm,GiLightningShout,GiLightningSlashes,GiHeavyRain,GiFireTail} from 'react-icons/gi'
+
 
 function App() {
-
 
 return(
     <>
