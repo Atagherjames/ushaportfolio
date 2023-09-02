@@ -1,0 +1,26 @@
+.animation{
+    width:90% ;
+    display: flex;
+margin-top: 100px;
+margin-right:auto;
+margin-left:auto ;
+justify-content: space-between;
+}
+
+.animation .animate{
+    transform: translateY(0);
+    animation:  animate 4s ease infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(-10px);
+    }
+
+    50%{
+        transform: translateY(10px);
+    }
+     100%{
+        transform:translateY(-10px) ;
+     }
+}
