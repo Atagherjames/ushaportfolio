@@ -1,68 +1,67 @@
-header{
-    width:100vw;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    z-index: 200;
-    height: 60px;
-    border-bottom: 1px solid #d3d3d3;
-    background: whitesmoke;
-    position: fixed;
-    opacity: 1;
-    top:0;
+header {
+  width: 100vw;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  z-index: 200;
+  height: 60px;
+  border-bottom: 1px solid #d3d3d3;
+  background: whitesmoke;
+  position: fixed;
+  opacity: 1;
+  top: 0;
 }
 
-.headerContainer{
-    position: relative;
-    display: flex;
-justify-content: space-between;
-width:80vw;
-margin-right: auto;
-margin-left: auto;
+.headerContainer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.logo span{
-    font-size: 20px;
-    font-weight: 1000;
-    cursor: pointer;
+.logo span {
+  font-size: 20px;
+  font-weight: 1000;
+  cursor: pointer;
 }
 
 /* mobile styling */
-.mobile{
+.mobile {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .headerContainer {
+    width: 90vw;
+  }
+}
+@media (max-width: 800px) {
+  .desktop {
     display: none;
-}
+  }
 
-@media(max-width:1000px){
-    .headerContainer{
-        width:90vw;
-    }
-}
-@media(max-width:800px) {
-    .desktop{
-        display: none;
-    }
+  .mobile {
+    display: block;
+    margin-top: -10px;
+    position: relative;
+  }
 
-    .mobile{
-        display: block;
-        margin-top: -10px;
-        position: relative;
-    }
+  .headerContainer {
+    width: 90vw;
+  }
 
-    .headerContainer{
-        width:90vw;
-    }
+  .mobileLink {
+    transform: translateX(100vw);
+    background-color: #d3d3d3;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    transition: transform 0.4s ease-in;
+  }
 
-    .mobileLink{
-        transform: translateX(100vw); 
-        background-color: #d3d3d3;
-        width:100vw;
-        height: 100vh;
-        position: absolute; 
-        transition: transform 0.8s ease-in;
-    }
-
-       .menuOpen{
-        transform: translateX(-50vw);
-        transition: transform 0.8s ease-out;
-    }
-
+  .menuOpen {
+    transform: translateX(-50vw);
+    transition: transform 0.4s ease-out;
+  }
 }
