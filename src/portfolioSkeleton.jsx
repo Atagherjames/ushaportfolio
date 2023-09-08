@@ -3,20 +3,11 @@ export const portfolioSkeleton = [
     id: 1,
     title: "Resturant Website",
     descritption:
-      "A resturant webite is ale can comefor the benefit of common man",
+      "Ungwa resturant is a resturant located in the capital of Nigeria. People can make reservation and host their party at any time. This is a cuisine that focus mostly on Nigerian traditional Dish.",
     stackUsed: ["React", "Vanilla CSS"],
     demoUrl: [
       "https://github.com/Atagherjames/ungwa-resturant",
       "https://ungwa-resturant.vercel.app",
     ],
-  },
-
-  {
-    id: 3,
-    title: "Resturant Website",
-    descritption:
-      "A resturant webite is a website where people can come, buy and sell goods and services for the benefit of common man",
-    stackUsed: ["React", "Vanilla CSS"],
-    demoUrl: ["#home", "#about"],
   },
 ];

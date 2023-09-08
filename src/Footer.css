@@ -1,53 +1,52 @@
-
-.footerContainer{
-    display:grid;
-    place-items: center;
-    padding: 60px;
-    margin-top: 20px;
+.footerContainer {
+  display: grid;
+  place-items: center;
+  padding: 60px;
+  margin-top: 20px;
 }
 
-.footerContainer h3{
-padding-top: 20px;
-padding-bottom: 30px;
+.footerContainer h3 {
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
-.formContainer{
-    display: flex;
-    flex-direction: column;
-    gap:15px;
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-.formContainer input, .formContainer textarea {
-    width:310px;
-    padding:10px;
-    height: 40px;
-    background:#d3d3d3; 
-    border: 2px solid #d3d3d3;
-    outline:none;
-    border-radius: 6px;
+.formContainer input,
+.formContainer textarea {
+  width: 310px;
+  padding: 10px;
+  height: 40px;
+  background: #d3d3d3;
+  border: 2px solid #d3d3d3;
+  outline: none;
+  border-radius: 6px;
 }
 
-.formContainer textarea{
-    resize: none;
-    height: 100px;
+.formContainer textarea {
+  resize: none;
+  height: 100px;
 }
 
-.formContainer button{
-    height: 40px;
-    outline:none;
-    background: #453bd8;
-    border: 2px solid #453bd8;
-    border-radius: 6px;
-    cursor: pointer;
+.formContainer button {
+  height: 40px;
+  outline: none;
+  background: #453bd8;
+  border: 2px solid #453bd8;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-@media(max-width:500px) {
-    .formContainer{
-        width:100%;
-    }
-    .formContainer input, .formContainer textarea{
-        width: 100%;
-    }
+@media (max-width: 500px) {
+  .formContainer {
+    width: 100%;
+  }
+  .formContainer input,
+  .formContainer textarea {
+    width: 100%;
+  }
 }
-
-
