@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-
+import SocialMedia from "./SocialMedia";
 const Footer = () => {
   return (
     <footer className="footerContainer" id="contact">
@@ -34,6 +34,7 @@ const Footer = () => {
         />
         <button type="submit">SUBMIT</button>
       </form>
+      <SocialMedia />
     </footer>
   );
 };

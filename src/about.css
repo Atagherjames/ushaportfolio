@@ -1,80 +1,80 @@
-.aboutContainer{
-    display: flex;
-    margin-right: auto;
-    width:60vw;
-    margin-left: auto;
-    padding-top: 100px;
-    gap:50px;
+.aboutContainer {
+  display: flex;
+  margin-right: auto;
+  width: 60vw;
+  margin-left: auto;
+  padding-top: 100px;
+  gap: 50px;
 }
 
-.aboutLeft{
-    width:800px;
-    height: 800px;
+.aboutLeft {
+  width: 800px;
+  height: 800px;
 }
 
-.aboutLeft img{
-    width:100%;
+.aboutLeft img {
+  width: 100%;
 }
 
-.aboutRight{
-    width:1000px;
+.aboutRight {
+  width: 1000px;
 }
 
-.aboutRight h2{
-color:#453bd8;
-font-size: 20px;
-    font-weight: 1000;
+.aboutRight h2 {
+  color: #453bd8;
+  font-size: 20px;
+  font-weight: 1000;
 }
 
-.aboutRight h3{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    font-weight: 1000;
+.aboutRight h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 1000;
 }
 
-.aboutRight p{
-    font-size: 18px;
-    line-height: 30px;
+.aboutRight p {
+  font-size: 18px;
+  line-height: 30px;
 }
 
-@media(max-width:1200px){
-    .aboutContainer{
-        width:90vw;
-        margin-top: 0;
-        padding-top: 20px;
-    }
+@media (max-width: 1200px) {
+  .aboutContainer {
+    width: 90vw;
+    margin-top: 0;
+    padding-top: 20px;
+  }
 }
 
-@media(max-width:900px) {
-    .aboutContainer{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width:100%;
-    }
+@media (max-width: 900px) {
+  .aboutContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
-    .aboutLeft{
-        width:60%;
-        height: 50%;
-    }
+  .aboutLeft {
+    width: 80%;
+    height: 50%;
+  }
 
-    .aboutRight{
-        width:82%;
-    }
+  .aboutRight {
+    width: 82%;
+  }
 
-    .aboutRight h2, 
-    .aboutRight h3{
-        font-size: 17px;
-    }
+  .aboutRight h2,
+  .aboutRight h3 {
+    font-size: 17px;
+  }
 
-    
-    .aboutRight p{
-        font-size: 16px;
-        line-height: 24px;
-    }
-    .aboutRight h2, .aboutRight h3, .aboutRight p{
-        text-align: center;
-    }
+  .aboutRight p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .aboutRight h2,
+  .aboutRight h3,
+  .aboutRight p {
+    text-align: center;
+  }
 }
-
