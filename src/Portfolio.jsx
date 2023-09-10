@@ -7,10 +7,7 @@ const Portfolio = () => {
     <div className="portfolio" id="portfolio">
       <h2>PORTFOLIO</h2>
       <h3>EACH PROJECT SHOWS MY APPROACH TO PROBLEM SOLVING</h3>
-      <PortComponent
-        data={portfolioSkeleton[0]}
-        url="/asset/ungwa-resturant.png"
-      />
+      <PortComponent data={portfolioSkeleton[0]} url="/asset/epiceats.png" />
     </div>
   );
 };
