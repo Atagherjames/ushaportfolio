@@ -5,7 +5,10 @@ import React from "react";
 const SocialMedia = () => {
   return (
     <div className="socialContainer">
-      <a href="www.linkedin.com/in/atagher-james-217714265" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/atagher-james-217714265"
+        target="_blank"
+      >
         <FaLinkedin />
       </a>
       <a href="https://www.instagram.com/ataghejames/" target="_blank">
