@@ -10,11 +10,14 @@
   scroll-behavior: smooth;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #fff;
   color: #000000;
   font-family: Mulish;
-  overflow: hidden;
 }
 
 a {
