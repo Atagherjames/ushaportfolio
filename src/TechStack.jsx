@@ -9,7 +9,9 @@ const TechStack = () => {
         <img src="/asset/html.png" alt="html" />
         <img src="/asset/css.png" alt="css" />
         <img src="/asset/javascript.png" alt="javascript" />
+        <img src="/asset/typescript.png" alt="javascript" />
         <img src="/asset/react.png" alt="react" />
+        <img src="/asset/nexjs.png" alt="react" />
         <img src="/asset/wordpress.png" alt="wordpress" />
         <img src="/asset/shopify.png" alt="shopify" />
         <img src="/asset/bootsrap.png" alt="bootsrap" />
