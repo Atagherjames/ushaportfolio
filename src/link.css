@@ -26,3 +26,7 @@ a {
   padding-left: 50px;
   padding-top: 100px;
 }
+
+.mobile ul li {
+  padding-top: 20px;
+}
