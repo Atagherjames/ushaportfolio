@@ -1,17 +1,22 @@
 import React from "react";
 import "./portcomponent.css";
 import { AiFillGithub, AiOutlineEye } from "react-icons/ai";
+import { GiShoppingCart } from "react-icons/gi";
+import { HiCake } from "react-icons/hi";
 
 const PortComponent = ({ data, url }) => {
   let className = "portContainer";
-  console.log(data.demoUrl[1]);
+
   return (
     <div className={className}>
       <div className="portLeft">
         <img src={url} alt="" />
       </div>
       <div className="portRight">
-        <h2>{data.title} </h2>
+        <h2>
+          {data.title} {data.id === 2 && <GiShoppingCart />}
+          {data.id === 1 && <HiCake />}
+        </h2>
         <article>
           <p>{data.descritption}</p>
         </article>
