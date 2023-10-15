@@ -19,8 +19,8 @@
 }
 
 .introContainer .right img {
-  width: 500px;
-  height: 280px;
+  width: 400px;
+  height: 500px;
 }
 
 @media (max-width: 900px) {
@@ -46,7 +46,7 @@
   }
 
   .introContainer .right img {
-    width: 400px;
-    height: 220px;
+    width: 300px;
+    height: 400px;
   }
 }
