@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
-  gap: 40px;
+  gap: 100px;
 }
 
 .introContainer .left {
@@ -19,8 +19,10 @@
 }
 
 .introContainer .right img {
-  width: 400px;
-  height: 500px;
+  width: 300px;
+  height: 400px;
+
+  transform: scale(1.4);
 }
 
 @media (max-width: 900px) {
@@ -46,7 +48,6 @@
   }
 
   .introContainer .right img {
-    width: 300px;
-    height: 400px;
+    transform: scale(1);
   }
 }

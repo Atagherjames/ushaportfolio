@@ -7,6 +7,8 @@ import TechStack from "./TechStack";
 import Portfolio from "./Portfolio";
 import Animation from "./Animation";
 import { Copyright } from "./Copyright";
+
+import { useState, useEffect } from "react";
 import {
   GiLightningTree,
   GiLightningTrio,
@@ -20,6 +22,9 @@ import {
 function App() {
   return (
     <>
+      <button type="button" onClick={() => setData("jamesbrown")}>
+        click me
+      </button>
       <Header id="home" />
       <Animation FirstIcon={GiLightningTree} SecondIcon={GiLightningTrio} />
       <Introduction />
