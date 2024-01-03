@@ -14,7 +14,7 @@ const Introduction = () => {
           </p>
         </div>
         <div className="right">
-          <img src="/asset/Atagher.png" alt="Atagher James" />
+          <img src="/asset/james.jpg" alt="Atagher James" />
         </div>
       </div>
     </>

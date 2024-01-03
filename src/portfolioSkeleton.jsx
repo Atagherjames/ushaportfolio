@@ -22,4 +22,13 @@ export const portfolioSkeleton = [
       "https://oppywears.vercel.app/",
     ],
   },
+
+  {
+    id: 3,
+    title: "AgroinTech",
+    descritption:
+      "AgroinTech is a company which believes in using technology to improve the yeild of agricultural product.",
+    stackUsed: ["Vanilla Js", "SCSS"],
+    demoUrl: ["#", "https://agrointech.netlify.app/"],
+  },
 ];

@@ -13,6 +13,10 @@ const Portfolio = () => {
         data={portfolioSkeleton[1]}
         url="/asset/oppywears.vercel.app.png"
       />
+      <PortComponent
+        data={portfolioSkeleton[2]}
+        url="/asset/AgrointechSSS.JPG"
+      />
     </div>
   );
 };
